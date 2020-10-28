@@ -1,0 +1,39 @@
+<div class="obsah-container">
+    <div class="obsah">
+        <table class="logintable">
+            <tr>
+                <th>
+                    Přihlášení
+                </th>
+                <th>
+                    Registrace
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <form method="post" action="login.php">
+                        <span class="input">
+                        <label for="logmail">Zadejte mail:</label>
+                        <input type="email" name="mail" id="logmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br>
+                            <div class="checkav"></div>
+                        <label for="logpass">Zadejte přihlašovací kód: </label>
+                        <input type="password" name="code" id="logpass" required>
+                        </span>
+                        <input type="submit" class="submitbutton" value="Odeslat">
+                    </form>
+                </td>
+                <td>
+                    <form method="post" action="register.php">
+                        <span class="input">
+                        <label for="regmail">Zadejte mail:</label>
+                        <input type="email" name="mail" id="regmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br>
+                        <label for="regpass">Zadejte přihlašovací kód: </label>
+                        <input type="password" name="code" id="regpass" required>
+                        </span>
+                        <input type="submit" name="s" class="submitbutton" value="Odeslat">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
