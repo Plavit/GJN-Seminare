@@ -1,5 +1,6 @@
 # GJN-Semináře
 *(English below)*
+<img id="Title" width="1000" src="Grafika/Semináře-title.JPG">
 
 ## Popis
 Základní program pro tvorbu rozvrhů na Gymnáziu Jana Nerudy (GJN). První verze byla dokončena na začátku roku 2015 ajkožto součást maturitní práce. Tento původní kód je také přiložen. Později ve stejném roce byl program rozšířen druhou verzí s vylepšenou grafikou a funkcionalitou v rámci semestrální práce v předmětu ZWA - Základy webových aplikací na ČVUT FEL. Jde tedy o můj první program, který byl využívaný a ačkoliv není příliš kvalitní, byla to dobrá a poučná zkušenost. Program byl dán škole plně k dispozici a v letech 2015-2021 bez nároku na odměnu pro školu hostován na následující webové adrese:
@@ -12,19 +13,23 @@ Na základě požadavků gymnázia byla připravena specifikace funkcí, které 
 
 ### Registrace a login
 Na základě registrace uživateli přijde mail s výchozím heslem, které je nutné resetovat. Registrovat lze pouze emailové adresy předem zařazené/schválené administrátorem na tzv. "whitelist" (seznam povolených adres) ve správě uživatelů, což zabraňuje falešným účtům.
-<img id="Registrace" width="400" src="grafika/Registrace.png">
+<img id="Registrace" width="1000" src="Grafika/Reg+Login.gif">
 
 ### Správa uživatelů
 Zde lze vytvořit a mazat uživatele v systému, stejně tak jde také zobrazit semináře, na které je konkrétní uživatel přihlášený.
+<img id="Uživatelé" width="1000" src="Grafika/Spr-uz.gif">
 
 ### Správa seminářů
 Stejně jako u uživatelů jde i tady vytvářet a upravovat semináře. Navíc jde semináře deaktivovat, pokud by se na ně nepřihlásilo dostatek studentů, nebo by nastal jiný problém. Toto lze udělat i hromadně jedním kliknutím na základě zadaného minimálního počtu studentů pro jednotlivé semináře.
+<img id="Semináře" width="1000" src="Grafika/Spr-sem.gif">
 
 ### Tabulka společných účastníků
 Zde lze vidět, koik mají jednotlivé semináře společných účastníků a tedy podle toho navrhovat rozvrhy.
+<img id="Společní účastníci" width="1000" src="Grafika/Spol-ucas.gif">
 
 ### Tabulka společných seminářů
 V této tabulce je možné naopak nalézt počty společných seminářů pro studenty, a tedy zjistit, které případné překryvy seminářů by postihly nejvíce studentů a jsou tedy nežádnouci.
+<img id="Společné semináře" width="1000" src="Grafika/Spol-sem.gif">
 
 ## Spuštění
 Aplikaci lze spustit lokálně přes emulátor PHP serveru (například [WAMP](https://www.wampserver.com/en/)), případně aplikaci nahrát na libovolný server online - je nutné ale přenastavit konfiguraci databáze.
